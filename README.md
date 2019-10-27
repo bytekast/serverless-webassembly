@@ -31,7 +31,7 @@ cd my-service
 
 ## 🔫 Run Locally
 
-`sls offline`
+`npm run local`
 
 ## 🛵 Deploy
 
