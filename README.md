@@ -18,7 +18,7 @@ Install the [Serverless Framework](https://serverless.com/framework/).
 
 `npm install -g serverless`
 
-## 📦 Create
+## 🏗️ Create
 
 ```
 sls create --template-url https://github.com/bytekast/serverless-webassembly --path my-service

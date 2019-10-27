@@ -7,10 +7,10 @@ edition = "2018"
 crate-type = ["cdylib"]
 
 [dependencies]
-wasm-bindgen = { version = "0.2", features = ["serde-serialize"] }
-js-sys = "0.3"
-web-sys = { version = "0.3", features = ["console"] }
-serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
-serde-wasm-bindgen = "0.1"
 aws_lambda_events = "0.2"
+js-sys = "0.3"
+serde = { version = "1.0", features = ["derive"] }
+serde-wasm-bindgen = "0.1"
+serde_json = "1.0"
+wasm-bindgen = { version = "0.2", features = ["serde-serialize"] }
+web-sys = { version = "0.3", features = ["console"] }
