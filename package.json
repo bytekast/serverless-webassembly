@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "postinstall": "wasm-pack build --target nodejs"
+  },
+  "devDependencies": {
+    "serverless-offline": "^5.12.0"
+  }
+}
