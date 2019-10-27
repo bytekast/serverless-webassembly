@@ -1,5 +1,6 @@
 # Serverless WebAssembly Template
 
+This is a simple Serverless application written in Rust, compiled to WebAssembly and deployed to AWS Lambda using the Serverless Framework.
 
 ## 📦 Prerequisites
 
@@ -14,6 +15,8 @@ Install the Rust => WebAssembly compiler: [wasm-pack](https://github.com/rustwas
 Install [Node](https://www.npmjs.com/get-npm).
 
 Install the [Serverless Framework](https://serverless.com/framework/).
+
+`npm install -g serverless`
 
 ## 📦 Create
 
