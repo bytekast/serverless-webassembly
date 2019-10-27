@@ -2,7 +2,7 @@
   "scripts": {
     "postinstall": "wasm-pack build --target nodejs",
     "watch": "watch 'npm i' ./src",
-    "local": "sls offline & npm run watch"
+    "local": "sls offline"
   },
   "devDependencies": {
     "serverless-offline": "^5.12.0",
